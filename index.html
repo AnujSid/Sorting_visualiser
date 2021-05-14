@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <h1 class="navbar is-black title is-2">Sorting App</h1>
+    <div class="columns mt-5">
+        <div class="ml-6 column is-one-third">
+            <button class="button is-danger is-outlined">new array</button>
+        </div>
+        <div class="column">
+            <span class="title is-3 mr-3">Range</span>
+            <input id="size" type="range" min=20 max=100 step=1>
+        </div>
+        <div class="column">
+            <span class="title is-3 mr-3">Speed</span>
+            <input id="speed" type="range" min=10 max=1000 step=20>
+        </div>
+        <div id ="gap" class="column">
+            <button class="button is-primary is-outlined">Bubble Sort</button>
+            <button class="button is-link is-outlined">Simple Sort</button>
+            <button class="button is-info is-outlined">Quick Sort</button>
+            <button class="button is-warning is-outlined">Insertion Sort</button>
+        </div>
+    </div>
+    <div id="bars" class="box container mt-10">
+    
+    </div>
+
+    <script src="app.js"></script>
+    <script src="js_files/bubble.js"></script>
+    <script src="js_files/insertion.js"></script>
+    <script src="js_files/quick.js"></script>
+    <script src="js_files/sorting.js"></script>
+</body>
+</html>
