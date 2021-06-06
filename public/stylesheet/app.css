@@ -1,0 +1,28 @@
+.navbar{
+    margin: auto;
+    padding-bottom: 15px;
+    padding-top: 8px;
+    justify-content: center;
+}
+#gap button{
+    margin-right: 1.5rem;
+}
+#gap{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.barstyle{
+    background-color: yellow;
+    display: inline-block;
+    margin-right: 1px;
+}
+#bars{
+    width: 640px;
+    background-color: black;
+}
+.columns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
