@@ -2,6 +2,9 @@
 
 A web application using HTML, CSS, Javascript to visualize how various sorting algorithms work.
 
+# Link 
+https://sorting-visualiser-anujsid.herokuapp.com/
+
 ## Getting Started
 
 * Create the essential files 
